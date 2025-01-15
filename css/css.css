@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0; 
     background-color: #f9f9f9;
-
+    line-height: 1.6;
 }
 
 .head
@@ -48,6 +48,8 @@ body {
     font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;
+    text-indent: initial;
+    letter-spacing: 1px;
 }
 
 .title a:hover
@@ -76,6 +78,7 @@ body {
 {
     color: #E7F6B6;
     font-weight: bold;
+    word-spacing: 2px;
 }
 
 .menu-desing a:hover
@@ -698,8 +701,58 @@ legend {
 }
 
 
+/*cookies*/
 
+.cookies
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252E1D;
+    color: #E7F6B6;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
 
+.cookies p
+{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.cookies button
+{
+    background-color: #799a6d;
+    color: #E7F6B6;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cookies button:hover
+{
+    background-color: #5e704f;
+    outline: 3px solid #799a6d;
+    outline-offset: 2px; 
+    background-color: #e7f6b6;
+    color: #252E1D;
+}
+
+.cookies button:focus
+{
+    outline: 3px solid #799a6d;
+    outline-offset: 2px;
+}
+
+.cookies button:active
+{
+    background-color: #3e6340;
+}
 
 /*footer*/
 
